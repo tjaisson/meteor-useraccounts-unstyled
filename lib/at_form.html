@@ -4,12 +4,6 @@
       {{#if showTitle}}
         {{> atTitle}}
       {{/if}}
-      {{#if showOauthServices}}
-        {{> atOauth}}
-      {{/if}}
-      {{#if showServicesSeparator}}
-        {{> atSep}}
-      {{/if}}
       {{#if showError}}
         {{> atError}}
       {{/if}}
@@ -34,6 +28,17 @@
       {{#if showResendVerificationEmailLink}}
         {{> atResendVerificationEmailLink}}
       {{/if}}
+      {{!-- #if showServicesSeparator}}
+        {{> atSep}}
+      {{/if}}
+      {{#if showOauthServices}}
+        {{> atOauth}}
+      {{/if --}}
+      	<div class="at-title">
+      		<strong>OU</strong>
+    		<h3>Se connecter avec&nbsp;:</h3>
+  		</div>
+      {{> atEntcore}}
     </div>
   {{/unless}}
 </template>
