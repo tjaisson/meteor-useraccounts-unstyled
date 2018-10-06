@@ -11,10 +11,12 @@ Package.on_use(function(api, where) {
   api.use([
     'templating',
     'underscore',
+    
   ], 'client');
 
   api.use([
     'useraccounts:core',
+    'tjaisson:accounts-entcore',
   ], ['client', 'server']);
 
   // Requires all routing packages loads before this asking for weak dependencies.
