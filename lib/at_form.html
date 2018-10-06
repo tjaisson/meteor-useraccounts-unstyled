@@ -34,12 +34,14 @@
       {{#if showOauthServices}}
         {{> atOauth}}
       {{/if --}}
+      {{#if showEntcoreServices}}
       	<br />
       	<br />
       	<div class="at-title">
     		<h3>Se connecter avec un ENT</h3>
   		</div>
-      {{> atEntcore}}
+        {{> atEntcore}}
+      {{/if}}
     </div>
   {{/unless}}
 </template>

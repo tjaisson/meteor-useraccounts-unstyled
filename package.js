@@ -28,10 +28,6 @@ Package.on_use(function(api, where) {
   ], ['client', 'server']);
 
   api.add_files([
-	'lib/at_entcore.html',
-	'lib/at_entcore.js',
-	'lib/at_entcore_service.html',
-	'lib/at_entcore_service.js',
     'lib/at_error.html',
     'lib/at_error.js',
     'lib/at_form.html',
@@ -69,7 +65,12 @@ Package.on_use(function(api, where) {
     'lib/at_title.html',
     'lib/at_title.js',
     'lib/full_page_at_form.html',
-    'lib/at_unstyled.css'
+    'lib/at_unstyled.css',
+    'lib/at_entcore.html',
+	'lib/at_entcore.js',
+	'lib/at_entcore_service.html',
+	'lib/at_entcore_service.js',
+
   ], ['client']);
 });
 
