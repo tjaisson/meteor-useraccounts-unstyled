@@ -11,6 +11,7 @@ Package.on_use(function(api, where) {
   api.use([
     'templating',
     'underscore',
+    'tjaisson:accounts-entcore-multi'
     
   ], 'client');
 
